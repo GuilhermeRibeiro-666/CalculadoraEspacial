@@ -1,0 +1,97 @@
+body{
+    background-color: #9400d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#corpo_calculadora{
+    width: 370px;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#tela_calculadora{
+    margin-top: 10px;
+    margin: 10px;
+    display: flex;
+    width: 350px;
+    height: 130px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+#listra{
+    background-color: black;
+    width: 1px;
+    height: 130px;
+    margin-left: 10px;
+}
+
+#text_formula_cone{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+
+#img_cone2{
+    border-radius: 20px;
+    height: 125px;
+    width: 110px;
+}
+
+#img_voltar{
+    margin: 15px;
+    margin-top: 120px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    transition: opacity 0.3s ease;
+}
+
+#img_voltar:hover{
+    opacity: 0.5;
+}
+
+#text_raio{
+    color: white;
+    margin: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#raio{
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#text_altura{
+    color: white;
+    margin: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#altura{
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#btn_calcular{
+    margin-left: 17px;
+}
+
+#volume_cone {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px; 
+    margin-top: 18px;
+}

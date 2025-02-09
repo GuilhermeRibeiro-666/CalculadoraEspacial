@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Espacial</title>
+
+    <link rel="stylesheet" href="cone_style.css">
+
+</head>
+<body>
+    
+    <div id="corpo_calculadora">
+
+        <div id="tela_calculadora">  
+            <img id="img_cone2" src="../imagens/cone2.jpeg" alt="Imagem Cone2">    
+            <p id="text_formula_cone">V= π . r² . h / 3</p>
+            <div id="listra"></div>
+            <div id="volume_cone"></div>
+        </div>
+
+        <form onsubmit="return calcular_volume_cone(event)">
+            <p id="text_raio">Raio
+            <input type="text" name="raio" id="raio" placeholder="Ex: 15cm">
+        </p>
+            <p id="text_altura">Altura
+            <input type="text" name="altura" id="altura" placeholder="Ex: 40cm">
+        </p>
+        <input id="btn_calcular" type="submit" value="Calcular"> 
+    </form>
+
+    <div id="voltar">
+        <a href="../calculadora.html">
+            <img id="img_voltar" src="../imagens/seta.png">
+            </a>
+        </div>
+
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
