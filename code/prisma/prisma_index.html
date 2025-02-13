@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Espacial</title>
+    <link rel="stylesheet" href="prisma_style.css">
+</head>
+<body>
+    <div id="corpo_calculadora">
+        <div id="tela_calculadora">  
+            <img id="img_prisma2" src="../imagens/prisma2.jpeg" alt="Imagem Prisma2">    
+            <div id="listra"></div>
+            <div id="volume_prisma"></div>
+        </div>
+
+        <form onsubmit="return calcular_volume_prisma(event)">
+            <p id="text_base">Base
+                <input type="text" name="base" id="base" placeholder="Ex: 40cm">
+            </p>
+            <p id="text_altura">Altura do Triângulo
+                <input type="text" name="altura" id="altura" placeholder="Ex: 40cm">
+            </p>
+            <p id="text_altura_prisma">Altura do Prisma
+                <input type="text" name="altura_prisma" id="altura_prisma" placeholder="Ex: 40cm">
+            </p>
+            <input id="btn_calcular" type="submit" value="Calcular"> 
+        </form>
+
+        <div id="voltar">
+            <a href="../calculadora.html">
+                <img id="img_voltar" src="../imagens/seta.png" alt="Voltar">
+            </a>
+        </div>
+    </div>
+
+    <script src="prisma_script.js"></script> 
+</body>
+</html>
