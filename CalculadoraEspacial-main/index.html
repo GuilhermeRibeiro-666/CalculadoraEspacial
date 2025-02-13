@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Espacial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div id="corpo_calculadora">
+        <div id="tela_calculadora">
+            <p id="resultado">Selecione um sólido para calcular</p>
+        </div>
+
+        <div id="botoes">
+            <a href="#" onclick="mostrarFormulario('cilindro')">
+                <img id="img_cilindro" src="Imagens/cilindro.png" alt="Cilindro">
+            </a>
+            <a href="#" onclick="mostrarFormulario('prisma')">
+                <img id="img_prisma" src="Imagens/prisma.jpeg" alt="Prisma">
+            </a>
+            <a href="#" onclick="mostrarFormulario('cone')">
+                <img id="img_cone" src="Imagens/cone.png" alt="Cone">
+            </a>
+        </div>
+
+        <div id="imagem_ampliada">
+            <!-- Imagem ampliada será injetada aqui via JavaScript -->
+        </div>
+
+        <div id="formulario">
+            <!-- Formulário será injetado aqui via JavaScript -->
+        </div>
+    </div>
+</main>
+    <footer>
+        <p>Desenvolvido por:</p>
+        <ul>
+            <li>Guilherme Ribeiro</li>
+            <li>Gustavo Carvalho</li>
+            <li>Sarah Kruschewsky</li>
+            <li>Ana Vitória</li>
+            <li>Edson Brito</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
